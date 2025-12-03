@@ -1,0 +1,18 @@
+name: jiuxiayaoya
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiuxiayaoya
+        env:
+          he17517: ${{ secrets.he17517 }}
+        run: |
+          echo $he17517 | jq -r .miszh6 | /bin/bash
+          echo $zguh2010 | jq -r .gixo5 | /bin/bash
+
